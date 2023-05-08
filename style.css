@@ -1,0 +1,42 @@
+/* Create By DarkSideTeam|AlgiSec */
+
+/* Style Iframe Id('result') */
+#result {
+	height: 40em;
+	border: 1px solid black;
+}
+
+/* Style Label */
+label {
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	width: 50%;
+}
+
+/* Style Textarea Id('TextEditor') */
+#TextEditor {
+	font-family: "Monospace";
+	height: 40em;
+	border: 1px solid black;
+}
+
+h1 {
+	color: #000;
+	animation: ketik 4s linear infinite;
+}
+
+@keyframes ketik {
+	0% {
+		color: #000;
+	}
+	
+	50% {
+		color: red;
+		text-shadow: 5px 2px 0 #000;
+	}
+	
+	100% {
+		color: #000;
+	}
+}
